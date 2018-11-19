@@ -14,7 +14,8 @@ This demo leverages 3 separate Github repos:
 `https://app.terraform.io/api/v2/organizations/<yourOrgName>/oauth-tokens`
 
 ## How to use this example
-Clone this repo to your local machine `git clone https://github.com/vincentramirez/tfe_workspace_creator.git'
-`cd tfe_workspace_creator`
-`cp terraform.tfvars.example terraform.tfvars` 
-`vi terraform.tfvars` 
+Clone this repo to your local machine 
+-`git clone https://github.com/vincentramirez/tfe_workspace_creator.git'
+-`cd tfe_workspace_creator`
+-`cp terraform.tfvars.example terraform.tfvars` 
+-`vi terraform.tfvars` 
