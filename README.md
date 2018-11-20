@@ -27,4 +27,9 @@ Enter your info & *BE VERY CAREFUL with this file! Do not check it into a public
 `terraform apply`  
 If this config is successful you should have a new workspace in your TFE instance called `${var.use_case_name}-creator`  
 You may have to refresh your TFE instance in the web browser to see the new workspace
+## Next step
+Move to the README in the second repo for this demo  
+`https://github.com/vincentramirez/use_case001-creator.git`  
 
+## Acknowledgments
+Hat tip to Adam Cavaliere for helping create this demo flow and structure. 
