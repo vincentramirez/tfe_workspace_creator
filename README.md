@@ -21,4 +21,8 @@ Clone this repo to your local machine
 `cd tfe_workspace_creator`  
 `cp terraform.tfvars.example terraform.tfvars`  
 `vi terraform.tfvars`  
-Enter your info *Be very carful with this file, do not check it into a public repo as you would expose your cloud keys*
+Enter your info *Be very carful with this file, do not check it into a public repo as you would expose your cloud keys*  
+`terraform init`  
+`terraform plan` check for any errors     
+`terraform apply
+
