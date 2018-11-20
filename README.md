@@ -9,6 +9,11 @@ This demo leverages 3 separate Github repos:
 2-`https://github.com/vincentramirez/use_case001-creator.git`  
 3-`https://github.com/vincentramirez/use_case001-repo.git`  
 
+Create your own repos in Github based on these three.  An easy way to do this is to do this is in the Github GUI, upper right, click + New Repository > give it the name of the repo, choose public or private, don't check the box for "initialize this repository with a README" > click the "import code" button > past the link to the repo you are cloning this repo from example:   
+Repo 2 -`https://github.com/vincentramirez/use_case001-creator.git`
+Then click "Begin import" button.  Give a minute then click on the link or refresh your Github repo view and look for the newly created repo.  
+
+Repeat for the above steps for Repo 3 `https://github.com/vincentramirez/use_case001-repo.git` 
 
 ## How to get my TFE OAuth Token:
 In a browser with internet accesss go to this path for your org:  
