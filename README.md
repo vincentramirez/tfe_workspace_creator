@@ -22,6 +22,9 @@ In a browser with internet accesss go to this path for your org:
 `https://app.terraform.io/api/v2/organizations/<yourOrgName>/oauth-tokens`  
 The output will look like this: `{"data":[{"id":"ot-AbCdefg2hIjkLm".........`  
 
+## How to create your TFE Org API Token
+In the TFE GUI select the org that you wish to operate in > Settings > API Tokens > under Organization Token Generate or Regenerate token.  Use this value for the tfe_org_api_token variable.   
+
 ## How to use this example
 Clone this repo to your local machine   
 `git clone https://github.com/vincentramirez/tfe_workspace_creator.git`  
