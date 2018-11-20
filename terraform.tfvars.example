@@ -12,7 +12,7 @@ creator_vcs_identifier = "<githubUserName>/use_case001-creator"
 
 tfe_oauth_token = "<yourOauthToken>"
 
-tfe_org_api_token = "<tfeOrganizatioApiToken>"
+tfe_org_token = "<tfeOrganizatioApiToken>"
 
 master_aws_access_key = "<yourAccessKey>"
 
