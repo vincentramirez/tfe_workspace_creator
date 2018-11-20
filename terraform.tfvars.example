@@ -18,6 +18,7 @@ master_aws_access_key = "<yourAccessKey>"
 
 master_aws_secret_key = "<yourSecretKey>"
 
+# The original demo just uses the same Access/Secret Keys but you can get creative an generate a different IAM set of API keys for this demo
 sub_account_aws_access_key = "<yourOtherAccessKey>"
 
 sub_account_aws_secret_key = "<yourOtherSecretKey>"
