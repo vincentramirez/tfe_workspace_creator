@@ -11,7 +11,9 @@ This demo leverages 3 separate Github repos:
 
 
 ## How to get my TFE OAuth Token:
+In a browser with internet accesss go to this path for your org:  
 `https://app.terraform.io/api/v2/organizations/<yourOrgName>/oauth-tokens`
+The output will look like this: `{"data":[{"id":"ot-AbCdefg2hIjkLm".........`  
 
 ## How to use this example
 Clone this repo to your local machine   
