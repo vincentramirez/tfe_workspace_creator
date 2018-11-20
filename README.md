@@ -21,8 +21,10 @@ Clone this repo to your local machine
 `cd tfe_workspace_creator`  
 `cp terraform.tfvars.example terraform.tfvars`  
 `vi terraform.tfvars`  
-Enter your info *Be very carful with this file, do not check it into a public repo as you would expose your cloud keys*  
+Enter your info & *BE VERY CAREFUL with this file! Do not check it into a public repo as you would expose your cloud keys*  
 `terraform init`  
 `terraform plan` check for any errors     
-`terraform apply`
+`terraform apply`  
+If this config is successful you should have a new workspace in your TFE instance called `${var.use_case_name}-creator`  
+You may have to refresh your TFE instance in the web browser to see the new workspace
 
