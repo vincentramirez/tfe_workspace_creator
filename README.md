@@ -15,6 +15,8 @@ Then click "Begin import" button.  Give it a minute then click on the link or re
 
 Repeat for the above steps for Repo 3 `https://github.com/vincentramirez/use_case001-repo.git` 
 
+Note that the first repo `https://github.com/vincentramirez/tfe_workspace_creator.git` is originally meant to be run on your local system, it is still a good practice to create your own copy of this repo, specifically if you want to go further and demonstrate a pipline deployment process for the creation of the "creator" workspace.  DON'T check your terraform.tfvars file back into the VCS!!!! 
+
 ## How to get my TFE OAuth Token:
 In a browser with internet accesss go to this path for your org:  
 `https://app.terraform.io/api/v2/organizations/<yourOrgName>/oauth-tokens`  
