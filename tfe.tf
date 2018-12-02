@@ -1,7 +1,7 @@
 # Configure the Terraform Enterprise Provider
 provider "tfe" {
   hostname = "${var.hostname}"
-  token    = "${var.tfe_org_token}"
+  token    = "${var.tfe_user_token}"
 }
 
 resource "tfe_workspace" "creator" {

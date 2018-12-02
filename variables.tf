@@ -1,4 +1,4 @@
-variable "tfe_org_token" {}
+variable "tfe_user_token" {}
 
 variable "aws_region" {
   description = "region to deploy resources in"
